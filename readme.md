@@ -23,8 +23,8 @@ Nesta pasta estão armazenados os **exercícios e questões teóricas** da disci
 Esta pasta contém os **projetos práticos** desenvolvidos durante a disciplina. Cada subpasta é um projeto separado criado com **Expo**, com sua própria estrutura, podendo ser executado de forma independente.
 
 **Lista de projetos:**
-- [app-lista-de-compras](./projetos/app-lista-de-compras)
-- [app-jogo-da-memoria](./projetos/app-jogo-da-memoria)
+- [contador](./projetos/contadorApp)
+
 
 
 > Observação : cada item desse é um link para a pasta que contém cada respectivo  projeto   
