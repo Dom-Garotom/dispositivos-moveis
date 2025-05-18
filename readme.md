@@ -23,7 +23,7 @@ Nesta pasta estão armazenados os **exercícios e questões teóricas** da disci
 Esta pasta contém os **projetos práticos** desenvolvidos durante a disciplina. Cada subpasta é um projeto separado criado com **Expo**, com sua própria estrutura, podendo ser executado de forma independente.
 
 **Lista de projetos:**
-- [contador](./projetos/contadorApp)
+- [contador](./projetos/contadorApp/README.md)
 
 
 
