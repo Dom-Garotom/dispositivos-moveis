@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# 📚 Biblioteca de Livros - App React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este projeto é um aplicativo mobile desenvolvido com **React Native + Expo**, com o objetivo de servir como material didático para a disciplina de **Materiais de Dispositivos Móveis**. Ele simula uma biblioteca digital de livros e demonstra na prática **todos os modelos de navegação disponíveis no React Navigation**, como forma de aprendizado completo da estrutura de navegação em aplicações móveis.
 
-## Get started
 
-1. Install dependencies
+## 📸 Prévia do App
 
-   ```bash
-   npm install
-   ```
+<p float="left">
+  <img src="./assets/images/screen-01.jpeg" width="200" />
+  <img src="./assets/images/screen.jpeg" width="200" />
+  <img src="./assets/images/screen-02.jpeg" width="200" />
+</p>
 
-2. Start the app
+<br>
 
-   ```bash
-   npx expo start
-   ```
+## 📱 Funcionalidades
 
-In the output, you'll find options to open the app in a
+- Visualização de uma lista de livros (mockados)
+- Detalhes do livro (navegação via Stack)
+- Navegação entre seções por abas (Bottom Tabs e Top Tabs)
+- Navegação entre telas integrando diferentes modelos de navegação 
+- Interface amigável com layout responsivo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<br>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🧪 Objetivo Didático
 
-## Get a fresh project
+<br>
+Este projeto foi desenvolvido com a finalidade de:
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Explorar todos os tipos de navegação do React Navigation
+- Entender a composição e transição entre diferentes stacks
+- Aplicar boas práticas de organização de pastas e componentes
+- Utilizar recursos do React Native + Expo em um projeto realista

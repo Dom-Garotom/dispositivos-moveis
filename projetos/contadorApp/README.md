@@ -2,7 +2,6 @@
 
 Este é um aplicativo simples de contador desenvolvido com **React Native** utilizando o **Expo**. Ele permite incrementar, decrementar e resetar um valor numérico com uma interface amigável e animações suaves.
 
----
 
 ## 📸 Prévia do App
 
@@ -13,7 +12,6 @@ Este é um aplicativo simples de contador desenvolvido com **React Native** util
   <img src="./assets/images/screen-02.jpeg" width="200" />
 </p>
 
----
 
 ## 🚀 Funcionalidades
 
@@ -23,7 +21,6 @@ Este é um aplicativo simples de contador desenvolvido com **React Native** util
 - Sombras e estilo customizado
 - Compatível com Android e iOS
 
----
 
 ## 🧱 Tecnologias Utilizadas
 
