@@ -6,9 +6,7 @@ Este projeto é um aplicativo mobile desenvolvido com **React Native + Expo**, c
 ## 📸 Prévia do App
 
 <p float="left">
-  <img src="./assets/images/screen-01.jpeg" width="200" />
-  <img src="./assets/images/screen.jpeg" width="200" />
-  <img src="./assets/images/screen-02.jpeg" width="200" />
+  <img src="./src/assets/cover.jpg" />
 </p>
 
 <br>

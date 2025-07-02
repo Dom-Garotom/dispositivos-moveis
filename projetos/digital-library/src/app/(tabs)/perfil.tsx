@@ -8,7 +8,6 @@ import {
     Text,
     Image,
     StyleSheet,
-    FlatList,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -22,7 +21,7 @@ const Perfil = () => {
                 colors={['rgba(44, 240, 14, 0.541)', 'rgba(16, 200, 93, 0.385)', 'rgba(14, 161, 75, 0.385)', 'rgba(10, 107, 50, 0.892)']}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 1 }}
-                style={[StyleSheet.absoluteFill , styles.gradient]}
+                style={[StyleSheet.absoluteFill, styles.gradient]}
             >
                 <BlurView intensity={50} tint="dark" style={StyleSheet.absoluteFill} />
 
@@ -34,22 +33,22 @@ const Perfil = () => {
                 <View style={styles.header}>
                     <Text style={styles.name}>Mano Genos</Text>
                     <Text style={styles.bio}>
-                        Desenvolvedor apaixonado por tecnologia, React e café ☕
+                        Desenvolvedor apaixonado ler livros sobre por tecnologia, jogos e filmes enquanto tomo um pouco de café ☕
                     </Text>
 
 
                     <View style={styles.statsContainer}>
                         <View style={styles.statBox}>
                             <Text style={styles.statNumber}>120</Text>
-                            <Text style={styles.statLabel}>Publicações</Text>
+                            <Text style={styles.statLabel}>Livros lidos</Text>
                         </View>
                         <View style={styles.statBox}>
-                            <Text style={styles.statNumber}>3.5k</Text>
-                            <Text style={styles.statLabel}>Seguidores</Text>
+                            <Text style={styles.statNumber}>20</Text>
+                            <Text style={styles.statLabel}>Livros a terminar</Text>
                         </View>
                         <View style={styles.statBox}>
                             <Text style={styles.statNumber}>180</Text>
-                            <Text style={styles.statLabel}>Seguindo</Text>
+                            <Text style={styles.statLabel}>Livros salvos</Text>
                         </View>
                     </View>
                 </View>
@@ -59,6 +58,7 @@ const Perfil = () => {
                 <View style={styles.bookContainer}>
                     {mockBooks.map((item, index) => (
                         <BookCard
+                            id={item.id}
                             key={index + 10}
                             title={item.title}
                             author={item.author}
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
 
-    gradient: { 
+    gradient: {
         alignItems: 'center',
         padding: 20,
         paddingTop: 40,

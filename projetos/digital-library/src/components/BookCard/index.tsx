@@ -1,19 +1,19 @@
-import { BlurView } from 'expo-blur';
 import { useRouter } from 'expo-router';
 import React from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
 interface BookCardProps {
+  id: string;
   title: string;
   author: string;
   imageUrl: string;
 }
 
-export const BookCard: React.FC<BookCardProps> = ({ title, author, imageUrl }) => {
+export const BookCard: React.FC<BookCardProps> = ({ id, title, author, imageUrl }) => {
   const { push } = useRouter()
 
   const handleClick = () => {
-    push('/book/[title]')
+    push(`/book/${id}` as '/book/[id]')
   }
 
   const percentageWidth = Math.random() * 600 / 3
@@ -45,9 +45,9 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    width: 60,
-    height: 60,
-    borderRadius: 16,
+    width: 65,
+    height: 65,
+    borderRadius: 10,
     marginRight: 12,
     resizeMode: 'cover',
   },

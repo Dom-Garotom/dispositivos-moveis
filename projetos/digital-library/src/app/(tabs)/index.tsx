@@ -23,6 +23,9 @@ export default function Books() {
                         <>
                             <Header />
 
+                            <Text style={styles.sectionTitle}>Destaques da semana</Text>
+
+
                             <FlatList
                                 data={mockBooks}
                                 keyExtractor={(item) => item.id}
@@ -35,6 +38,9 @@ export default function Books() {
                                 showsHorizontalScrollIndicator={false}
                                 horizontal
                             />
+
+                            <Text style={styles.sectionTitle}>Continue lendo</Text>
+
                         </>
                     )}
 
@@ -42,6 +48,7 @@ export default function Books() {
                     keyExtractor={(item) => item.id}
                     renderItem={({ item }) => (
                         <BookCard
+                         id={item.id}
                             title={item.title}
                             author={item.author}
                             imageUrl={item.imageUrl}
@@ -77,5 +84,14 @@ const styles = StyleSheet.create({
         padding: 10,
         height: 220,
         flexDirection: 'row',
-    }
+    },
+
+    sectionTitle: {
+        width: '100%',
+        fontSize: 18,
+        fontWeight: '700',
+        color: '#FEFFFE',
+        textAlign: 'left',
+        marginTop: 16,
+    },
 });

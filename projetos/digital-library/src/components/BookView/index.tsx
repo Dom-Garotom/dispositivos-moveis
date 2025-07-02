@@ -3,7 +3,6 @@ import { Image, StyleSheet } from 'react-native';
 
 interface BookViewProps {
     imageUrl: string;
-
 }
 
 const BookView: React.FC<BookViewProps> = ({ imageUrl }) => {
