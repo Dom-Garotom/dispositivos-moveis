@@ -25,7 +25,7 @@ Esta pasta contém os **projetos práticos** desenvolvidos durante a disciplina.
 **Lista de projetos:**
 - [contador](./projetos/contadorApp/README.md)
 - [to-do](./projetos/to-do/README.md)
-- [Digital-library](./projetos/digital-library/README.md)
+- [Digital-library - 2 Etapa](./projetos/digital-library/README.md)
 
 
 > Observação : cada item desse é um link para a pasta que contém cada respectivo  projeto   
